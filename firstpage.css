@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.nav{
+    height: 120vh;
+    width: 38.5%;
+    background-color: rgb(210, 140, 136); 
+    position: sticky;
+    top: -125px;
+}
+.nav>img{
+    height: 17vh;
+    width: 62%;
+    position: relative;
+    top: 15vh;
+    left: 3vh;
+}
+.nav>ol>li{
+  position: relative;
+  top: 20vh;
+  left: 2vw;
+  list-style: none;
+  line-height: 37px;
+  font-size: 17px;
+  text-decoration-line: underline;
+  color: white;
+  cursor: pointer;
+}
+.nav>p{
+    position: relative;
+    top: 30vh;
+    left: 2vw;
+    color: white;
+    font-size: small;
+}
+.art1{
+    height: 85vh;
+    width: 110%;
+    background-color: rgb(190,186, 167);
+    position: absolute;
+    left: 216px;
+    top: -275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    visibility: hidden;
+    overflow: hidden;
+    overflow: scroll;
+    padding-top: 15vh;
+}
+.nav>ol>li:hover .art1{
+   visibility: visible !important;
+   cursor: pointer;
+}
+.firstpic{
+    height: 30%;
+    width: 75%;
+    padding-top: 8vh;
+    margin-top:3vh;
+}
+.firstpic>img{
+    height: 100%;
+    width: 100%;
+}
+.art1>button{
+    height: 10%;
+    width: 100%;
+    border: none;
+    background-color: rgb(127, 123, 103);
+    margin-top: 20vh;
+    color: white;
+    font-size: 14px;
+    padding: 5% 0;
+}
+.firstpic>p{
+    margin-top: -2.5vh;
+}
+.art2{
+    background-color: rgb(238, 217, 118);
+    padding-top: 20vh;
+    margin-top: -6vh;
+}
+.art3{
+    background-color: rgb(250, 205, 190);
+    padding-top: 20vh;
+    margin-top: -12vh;
+}
+/* -------------nav-bar------------------- */
+.body1{
+     /* border: 2px solid green ; */
+     height: auto;
+     background-color: rgba(255, 192, 203, 0.151);
+}
+.first{
+    height: 7vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first>img{
+    height: 2.5vh;
+    width: 1.2vw;
+    margin-right: 1vw;
+}
+.first-one{
+    height: 90vh;
+    width: 100%;
+    /* margin-top: 2vh; */
+}
+.first-one>img{
+    height: 100%;
+    width: 100%;
+}
+.first-two{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 10vh;
+    /* border-bottom: 1px  solid black; */
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+ .linee{
+    width: 5vw;
+    border-bottom: 1.5px solid rgb(210, 140, 136);
+    margin: 13vh 0 0 37vw;
+}
+/* <!-- ---------------1st-Section--------------> */
+/* <!-- ---------------2nd-Section--------------> */
+.second-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    overflow: hidden;
+} 
+.second{
+    height: 280px;
+    width: 22%;
+    /* border: 1px  solid rgb(224, 12, 12); */
+    text-align: center;
+    margin-top: 10vh;
+    position: relative;
+ }
+ .second>img{
+    height: 70%;
+    width: 100%;
+    /* border: 1px  solid black; */
+}
+
+.second::after{
+    content: '';
+    height: 70%;
+    z-index: 1;
+    width: 100%;
+    background-color:  rgba(255, 255, 255, 0.349);
+    visibility: hidden;
+   position: absolute;
+   left: 0%;
+   
+   /* top: 100vh; 
+   right: 59.7vw; */
+}
+.second:hover::after{ 
+    visibility: visible;  
+    cursor: pointer;
+    top:  0%;
+}
+.second::before{
+    content: 'Quick View';
+    height: 5vh;
+    z-index: 3;
+    width: 50%;
+    padding-top: 10px;
+    border-radius: 50px;
+    background-color: rgb(139, 94, 94);
+    visibility: hidden;
+   position: absolute;
+   top: 30%;
+   left: 25%;
+}
+.second:hover::before{ 
+     visibility: visible;  
+    cursor: pointer;
+    /* top: 146vh; */
+    /* left: 27vw; */
+}
+.second>h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    color: rgb(210, 140, 136) ;
+}
+.circle1{
+    height: 15%;
+    width: 25%;
+    border-radius: 50%;
+    background-color: rgb(202, 180, 149);
+    padding-top: 20px;
+    font-size: 10px;
+    position: absolute;
+    left: 72%;
+    top: -1%;
+}
+.circle1>h3{
+    font-weight: normal;
+    width: 50%;
+    padding-left: 15px;
+}
+.circle2{
+    background-color: rgb(173, 119, 119);
+    color: white;
+}
+.circle3{
+    background-color: rgb(242, 199, 99);
+}
+/* <!-- ---------------3nd-Section--------------> */
+.third-one{
+    height: 32vh;
+    width: 100%;
+    background-color: rgb(242, 241, 238);
+}
+.third-one>img{
+    height: 100%;
+    width: 30%;
+    margin: 0 0 0 27vw;
+
+}
+.third-two{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(242, 241, 238);
+}
+.third-two>p{
+    height: 20vh;
+    width: 34.5vw;
+    font-size: large;
+    font-family: serif;
+    line-height: 23px;
+}
+/* <!-- ---------------4rth-Section--------------> */
+.forth-main{
+    background-color: rgb(242, 241, 238);
+  padding: 10vh 0 10vh 0;  
+}
+.forth{
+    height: 45vh;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8vh;
+    margin-left: 2vw;
+}
+.forth1{
+    height: 100%;
+    width: 30%;
+    border: 1px solid  maroon;
+}
+.forthimg{
+    overflow: hidden;
+    height: 50%;
+    width: 100%;
+}
+.forthimg>img{
+    height: 100%;
+    width: 100%;
+}
+.forth1>h1{
+    font-weight: normal;
+    font-size: 22px;
+    margin: 2vh 0 0 2vw;
+    color: rgb(131, 131, 131);
+}
+.forth1>p{
+        font-weight: normal;
+        margin: 2vh 0 0 2vw;
+        color: rgb(131, 131, 131);
+        padding-bottom: 5vh;
+}
+.forthimg>img:hover{
+      transition-property: all;
+      transition-duration: 1s;
+      transform: scale(1.1);
+      cursor: pointer;
+}
+/* <!-- ---------------footer-Section--------------> */
+.footer{
+    background-color: rgb(242, 241, 238);
+}
+.footerimg{
+    height: 23vh;
+    width: 15vw;
+    margin-left:32vw;
+}
+.footerimg>img{
+    height: 100%;
+    width: 100%;
+}
+.footerp{
+    text-align: center;
+    margin-top: 6vh;
+    color: rgba(0, 0, 0, 0.568);
+    line-height: 22px;
+}
+.footerlastp{
+    text-align: center;
+    margin-top: 12vh;
+    padding-bottom: 3vh;
+    color:rgb(210, 140, 136) ;
+    font-size: 14px;
+}
+/* <!-- ---------------footer-Section--------------> */

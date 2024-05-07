@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 120vh;
+    width: 20%;
+    background-color: rgb(210, 140, 136); 
+    position: sticky;
+    top: -125px;
+}
+.nav>img{
+    height: 17vh;
+    width: 62%;
+    position: relative;
+    top: 15vh;
+    left: 3vh;
+}
+.nav>ol>li{
+  position: relative;
+  top: 20vh;
+  left: 2vw;
+  list-style: none;
+  line-height: 37px;
+  font-size: 17px;
+  text-decoration-line: underline;
+  color: white;
+  cursor: pointer;
+}
+.nav>p{
+    position: relative;
+    top: 30vh;
+    left: 2vw;
+    color: white;
+    font-size: small;
+}
+.art1{
+    height: 85vh;
+    width: 110%;
+    background-color: rgb(190,186, 167);
+    position: absolute;
+    left: 216px;
+    top: -275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    visibility: hidden;
+    overflow: hidden;
+    overflow: scroll;
+    padding-top: 15vh;
+}
+.nav>ol>li:hover .art1{
+   visibility: visible !important;
+   cursor: pointer;
+}
+.firstpic{
+    height: 30%;
+    width: 75%;
+    padding-top: 8vh;
+    margin-top:3vh;
+}
+.firstpic>img{
+    height: 100%;
+    width: 100%;
+}
+.art1>button{
+    height: 10%;
+    width: 100%;
+    border: none;
+    background-color: rgb(127, 123, 103);
+    margin-top: 20vh;
+    color: white;
+    font-size: 14px;
+    padding: 5% 0;
+}
+.firstpic>p{
+    margin-top: -2.5vh;
+}
+.art2{
+    background-color: rgb(238, 217, 118);
+    padding-top: 20vh;
+    margin-top: -6vh;
+}
+.art3{
+    background-color: rgb(250, 205, 190);
+    padding-top: 20vh;
+    margin-top: -12vh;
+}
+/* -------------nav-bar------------------- */
+.first-one{
+    height: 30vh;
+    width: 80%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./nav.jpg);
+    background-size: 100% 100%;
+    color: white;
+    flex-direction: column;
+    margin-top: -750px;
+}
+.first-one>h1{
+    font-weight: normal;
+    font-size: 46px;
+    text-align: center;
+}
+.first-one>p{
+    font-size: 24px;
+}
+/* <!-- ---------------1st-Section--------------> */
+/* <!-- ---------------2nd-Section--------------> */
+.second{
+    /* margin-top: 5vh; */
+    margin-left: 19vw;
+    background-color: rgb(242, 241, 238);
+    padding: 5vh 0 0 2vw;
+}
+.second>h1{
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 27px;
+}
+.second-one{
+    height: 1px;
+    width: 6.5%;
+    border-bottom: 1px solid palevioletred;
+    color: palevioletred;
+    margin-top: 3vh;
+}
+/* <!-- ---------------2nd-Section--------------> */
+/* <!-- ---------------4rth-Section--------------> */
+.forth-main{
+    background-color: rgb(242, 241, 238);
+    margin-left: 20%;
+}
+.forth{
+    height: auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8vh;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+}
+.forth1{
+    height: 100%;
+    width: 30%;
+    border: 1px solid  maroon;
+    margin-top: 4vh;
+}
+.forthimg{
+    overflow: hidden;
+    height: 50%;
+    width: 100%;
+}
+.forthimg>img{
+    height: 100%;
+    width: 100%;
+}
+.forth1>h1{
+    font-weight: normal;
+    font-size: 22px;
+    margin: 2vh 0 0 2vw;
+    color: rgb(131, 131, 131);
+}
+.forth1>p{
+        font-weight: normal;
+        margin: 2vh 0 0 2vw;
+        color: rgb(131, 131, 131);
+        padding-bottom: 5vh;
+}
+.forthimg>img:hover{
+      transition-property: all;
+      transition-duration: 1s;
+      transform: scale(1.1);
+      cursor: pointer;
+}
+/* <!-- ---------------footer-Section--------------> */
+.footer{
+    background-color: rgb(242, 241, 238);
+    height: auto;
+    width: 80%;
+    margin-left: 20%;
+    padding-top: 15vh;
+}
+.footerimg{
+    height: 23vh;
+    width: 15vw;
+    margin-left:32vw;
+}
+.footerimg>img{
+    height: 100%;
+    width: 100%;
+}
+.footerp{
+    text-align: center;
+    margin-top: 6vh;
+    color: rgba(0, 0, 0, 0.568);
+    line-height: 22px;
+}
+.footerlastp{
+    text-align: center;
+    margin-top: 12vh;
+    padding-bottom: 3vh;
+    color:rgb(210, 140, 136) ;
+    font-size: 14px;
+}
+/* <!-- ---------------footer-Section--------------> */

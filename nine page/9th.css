@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 120vh;
+    width: 20%;
+    background-color: rgb(210, 140, 136); 
+    position: sticky;
+    top: -125px;
+}
+.nav>img{
+    height: 17vh;
+    width: 62%;
+    position: relative;
+    top: 15vh;
+    left: 3vh;
+}
+.nav>ol>li{
+  position: relative;
+  top: 20vh;
+  left: 2vw;
+  list-style: none;
+  line-height: 37px;
+  font-size: 17px;
+  text-decoration-line: underline;
+  color: white;
+  cursor: pointer;
+}
+.nav>p{
+    position: relative;
+    top: 30vh;
+    left: 2vw;
+    color: white;
+    font-size: small;
+}
+.art1{
+    height: 85vh;
+    width: 110%;
+    background-color: rgb(190,186, 167);
+    position: absolute;
+    left: 243px;
+    top: -275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    visibility: hidden;
+    overflow: hidden;
+    overflow: scroll;
+    padding-top: 15vh;
+}
+.nav>ol>li:hover .art1{
+   visibility: visible !important;
+   cursor: pointer;
+}
+.firstpic{
+    height: 30%;
+    width: 75%;
+    padding-top: 8vh;
+    margin-top:3vh;
+}
+.firstpic>img{
+    height: 100%;
+    width: 100%;
+}
+.art1>button{
+    height: 10%;
+    width: 100%;
+    border: none;
+    background-color: rgb(127, 123, 103);
+    margin-top: 20vh;
+    color: white;
+    font-size: 14px;
+    padding: 5% 0;
+}
+.firstpic>p{
+    margin-top: -2.5vh;
+}
+.art2{
+    background-color: rgb(238, 217, 118);
+    padding-top: 20vh;
+    margin-top: -6vh;
+}
+.art3{
+    background-color: rgb(250, 205, 190);
+    padding-top: 20vh;
+    margin-top: -12vh;
+}
+/* -------------nav-bar------------------- */
+/* <!-- ---------------1st-section--------- */
+.first{
+    height: 30vh;
+    width: 80%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    margin-top: -750px;
+    background-image: url(./studio__iwto-01_1600x.jpg);    
+    background-color: rgb(245, 245, 245);
+    background-size: 100% 150%;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+.first>h1{
+    font-weight: normal;  
+}
+/* <!-- ---------------1st-section--------- */
+.second-main{
+    height: auto;
+    width: 80%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: row;
+    /* margin-top: -750px; */
+    padding-top: 10vh;
+    background-color:rgb(242, 241, 238);  
+}
+.aaa{
+    height: 5vh;
+    border-bottom: 1px solid brown;
+    font-size: 22px;
+    padding-top: 2vw;
+    /* letter-spacing: 1px; */
+    
+}
+.second-two{
+    height: auto;
+    width: 45%;
+    margin-top: -8vh;
+}
+.second-two>img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* <!-- ---------------footer-Section--------------> */
+.footer{
+    background-color: rgb(242, 241, 238);
+    height: auto;
+    width: 80%;
+    margin-left: 20%;
+    padding-top: 15vh;
+}
+.footerimg{
+    height: 23vh;
+    width: 15vw;
+    margin-left:32vw;
+}
+.footerimg>img{
+    height: 100%;
+    width: 100%;
+}
+.footerp{
+    text-align: center;
+    margin-top: 6vh;
+    color: rgba(0, 0, 0, 0.568);
+    line-height: 22px;
+}
+.footerlastp{
+    text-align: center;
+    margin-top: 12vh;
+    padding-bottom: 3vh;
+    color:rgb(210, 140, 136) ;
+    font-size: 14px;
+}
+/* <!-- ---------------footer-Section--------------> */
